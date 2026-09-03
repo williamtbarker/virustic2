@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Virustic2"
+type: software
+authors:
+  - family-names: "Barker"
+    given-names: "William"
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/williamtbarker/virustic2"
+url: "https://github.com/williamtbarker/virustic2"
+keywords:
+  - bioinformatics
+  - viral genomics
+  - de Bruijn graph
+  - genome assembly

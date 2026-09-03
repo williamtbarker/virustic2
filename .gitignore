@@ -1,0 +1,7 @@
+/target/
+*.fasta.gz
+*.fastq.gz
+*.fa.gz
+*.fq.gz
+*.assembly.json
+.DS_Store
