@@ -124,6 +124,14 @@ The implementation plan and scientific validation roadmap are in
 [`docs/DESIGN.md`](docs/DESIGN.md). A reproducible, explicitly limited v1/v2 development comparison
 is in [`docs/BENCHMARK.md`](docs/BENCHMARK.md).
 
+## Synthetic benchmark
+
+On an Apple M2 Max, Virustic2 assembled 200,000 synthetic 150-base reads (30 million input bases)
+in a median 2.43 seconds with four threads across three runs. Canonical
+31-mer precision and recall were both 1.000, and FASTA output was identical between one and four
+threads. This controlled, error-free fixture is engineering evidence rather than real-read or
+biological validation. [Method, ranges, and limitations](docs/BENCHMARK_MACOS_2026-09-03.md).
+
 ## Scope
 
 Virustic2 currently emits exact de Bruijn unitigs. It does not perform read correction, adaptive

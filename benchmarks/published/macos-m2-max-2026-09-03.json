@@ -1,0 +1,157 @@
+{
+  "cases": [
+    {
+      "case": "g50000-r50000-t1",
+      "commit": "cd246638f15f3cd95ede7a20fa125fc01698f8f6",
+      "metrics": {
+        "assembly_canonical_kmers": 50000,
+        "fixed_thread_outputs_identical": true,
+        "genome_length": 50000,
+        "input_sha256": "386249c0a303438edde72c31804ee774050bad7c2af6c85cc9e419c087ef5412",
+        "kmer_precision": 1.0,
+        "kmer_recall": 1.0,
+        "output_sha256": "c395996efe797d814b3ed8479f7fe44427a8c03d7d3f3ce56f696fe32aaf61a9",
+        "read_count": 50000,
+        "read_length": 150,
+        "shared_canonical_kmers": 50000,
+        "threads": 1,
+        "truth_canonical_kmers": 50000
+      },
+      "n": 3,
+      "peak_rss_mib_max": 29.016,
+      "peak_rss_mib_median": 27.422,
+      "peak_rss_mib_min": 19.141,
+      "returncodes": [
+        0,
+        0,
+        0
+      ],
+      "status": "PASS",
+      "tool": "virustic2",
+      "wall_seconds_cv_percent": 3.052,
+      "wall_seconds_max": 0.840498,
+      "wall_seconds_median": 0.81258,
+      "wall_seconds_min": 0.790897
+    },
+    {
+      "case": "g50000-r50000-t4",
+      "commit": "cd246638f15f3cd95ede7a20fa125fc01698f8f6",
+      "metrics": {
+        "assembly_canonical_kmers": 50000,
+        "fixed_thread_outputs_identical": true,
+        "genome_length": 50000,
+        "input_sha256": "386249c0a303438edde72c31804ee774050bad7c2af6c85cc9e419c087ef5412",
+        "kmer_precision": 1.0,
+        "kmer_recall": 1.0,
+        "output_sha256": "c395996efe797d814b3ed8479f7fe44427a8c03d7d3f3ce56f696fe32aaf61a9",
+        "read_count": 50000,
+        "read_length": 150,
+        "shared_canonical_kmers": 50000,
+        "threads": 4,
+        "truth_canonical_kmers": 50000
+      },
+      "n": 3,
+      "peak_rss_mib_max": 33.734,
+      "peak_rss_mib_median": 29.609,
+      "peak_rss_mib_min": 24.938,
+      "returncodes": [
+        0,
+        0,
+        0
+      ],
+      "status": "PASS",
+      "tool": "virustic2",
+      "wall_seconds_cv_percent": 1.362,
+      "wall_seconds_max": 0.679139,
+      "wall_seconds_median": 0.66926,
+      "wall_seconds_min": 0.660912
+    },
+    {
+      "case": "g50000-r200000-t1",
+      "commit": "cd246638f15f3cd95ede7a20fa125fc01698f8f6",
+      "metrics": {
+        "assembly_canonical_kmers": 50000,
+        "fixed_thread_outputs_identical": true,
+        "genome_length": 50000,
+        "input_sha256": "dd335388fe2e0d43b4f7e0719b18838cf4d9a720a55bb15e2e321930db045e6f",
+        "kmer_precision": 1.0,
+        "kmer_recall": 1.0,
+        "output_sha256": "6ee72ecab0e20498a1d48eb57832ded90137799fd3d2c3204b9956ce651dc485",
+        "read_count": 200000,
+        "read_length": 150,
+        "shared_canonical_kmers": 50000,
+        "threads": 1,
+        "truth_canonical_kmers": 50000
+      },
+      "n": 3,
+      "peak_rss_mib_max": 29.719,
+      "peak_rss_mib_median": 23.328,
+      "peak_rss_mib_min": 21.297,
+      "returncodes": [
+        0,
+        0,
+        0
+      ],
+      "status": "PASS",
+      "tool": "virustic2",
+      "wall_seconds_cv_percent": 0.2,
+      "wall_seconds_max": 2.86467,
+      "wall_seconds_median": 2.858103,
+      "wall_seconds_min": 2.853293
+    },
+    {
+      "case": "g50000-r200000-t4",
+      "commit": "cd246638f15f3cd95ede7a20fa125fc01698f8f6",
+      "metrics": {
+        "assembly_canonical_kmers": 50000,
+        "fixed_thread_outputs_identical": true,
+        "genome_length": 50000,
+        "input_sha256": "dd335388fe2e0d43b4f7e0719b18838cf4d9a720a55bb15e2e321930db045e6f",
+        "kmer_precision": 1.0,
+        "kmer_recall": 1.0,
+        "output_sha256": "6ee72ecab0e20498a1d48eb57832ded90137799fd3d2c3204b9956ce651dc485",
+        "read_count": 200000,
+        "read_length": 150,
+        "shared_canonical_kmers": 50000,
+        "threads": 4,
+        "truth_canonical_kmers": 50000
+      },
+      "n": 3,
+      "peak_rss_mib_max": 31.016,
+      "peak_rss_mib_median": 30.516,
+      "peak_rss_mib_min": 28.516,
+      "returncodes": [
+        0,
+        0,
+        0
+      ],
+      "status": "PASS",
+      "tool": "virustic2",
+      "wall_seconds_cv_percent": 1.469,
+      "wall_seconds_max": 2.492122,
+      "wall_seconds_median": 2.433148,
+      "wall_seconds_min": 2.426878
+    }
+  ],
+  "date": "2026-09-03",
+  "environment": {
+    "cargo": "cargo 1.98.1 (797e8a9bc 2026-08-05)",
+    "cpu_brand": "Apple M2 Max",
+    "git": "git version 2.39.3 (Apple Git-146)",
+    "hardware_model": "Mac14,6",
+    "logical_cpus": 12,
+    "machine": "arm64",
+    "physical_memory_bytes": "103079215104",
+    "platform": "macOS-14.7.6-arm64-arm-64bit",
+    "processor": "arm",
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+    "release": "23.6.0",
+    "rustc": "rustc 1.98.1 (48a229cea 2026-09-01)",
+    "system": "Darwin"
+  },
+  "limitations": "Synthetic engineering evidence; not biological or clinical validation.",
+  "replicates": 3,
+  "schema_version": "1.0",
+  "source_commit": "cd246638f15f3cd95ede7a20fa125fc01698f8f6",
+  "tool": "virustic2"
+}
