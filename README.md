@@ -1,5 +1,7 @@
 # Virustic2
 
+[![CI](https://github.com/williamtbarker/virustic2/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/williamtbarker/virustic2/actions/workflows/ci.yml) [![Release](https://img.shields.io/github/v/release/williamtbarker/virustic2)](https://github.com/williamtbarker/virustic2/releases) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Virustic2 is a production-minded, reference-free viral **unitig assembler** written in Rust. It
 streams plain or gzip-compressed FASTA/FASTQ, understands single-end and paired-end inputs, rejects
 low-quality k-mer windows, and builds a deterministic strand-symmetric de Bruijn graph from packed
@@ -121,6 +123,14 @@ paired fragment semantics, mismatched mate IDs, and output identity across threa
 The implementation plan and scientific validation roadmap are in
 [`docs/DESIGN.md`](docs/DESIGN.md). A reproducible, explicitly limited v1/v2 development comparison
 is in [`docs/BENCHMARK.md`](docs/BENCHMARK.md).
+
+## Synthetic benchmark
+
+On an Apple M2 Max, Virustic2 assembled 200,000 synthetic 150-base reads (30 million input bases)
+in a median 2.43 seconds with four threads across three runs. Canonical
+31-mer precision and recall were both 1.000, and FASTA output was identical between one and four
+threads. This controlled, error-free fixture is engineering evidence rather than real-read or
+biological validation. [Method, ranges, and limitations](docs/BENCHMARK_MACOS_2026-09-03.md).
 
 ## Scope
 
