@@ -38,7 +38,12 @@ cd virustic2
 cargo build --release --locked
 ```
 
-The executable is `target/release/virustic2`.
+The executable is `target/release/virustic2`. To make the `virustic2` command available for
+the examples below, add the release directory to your current shell's `PATH`:
+
+```bash
+export PATH="$PWD/target/release:$PATH"
+```
 
 ## Single-end compressed FASTQ
 
