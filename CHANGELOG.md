@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented here.
 
-## Unreleased — 0.1.0
+## v0.1.0 — 2026-09-03
 
 - Rebuilt Virustic around packed two-bit k-mers and a strand-symmetric graph.
 - Added streaming plain/gzip FASTA and wrapped FASTQ parsing.
