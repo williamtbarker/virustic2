@@ -2,14 +2,10 @@
 
 [![CI](https://github.com/williamtbarker/virustic2/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/williamtbarker/virustic2/actions/workflows/ci.yml) [![Release](https://img.shields.io/github/v/release/williamtbarker/virustic2)](https://github.com/williamtbarker/virustic2/releases) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Virustic2 is a production-minded, reference-free viral **unitig assembler** written in Rust. It
-streams plain or gzip-compressed FASTA/FASTQ, understands single-end and paired-end inputs, rejects
-low-quality k-mer windows, and builds a deterministic strand-symmetric de Bruijn graph from packed
-two-bit DNA.
+Virustic2 is a reference-free viral **unitig assembler** written in Rust. It streams plain or gzip-compressed FASTA/FASTQ, supports single-end and paired-end inputs, rejects low-quality k-mer windows, and builds a deterministic strand-symmetric de Bruijn graph from packed two-bit DNA.
 
 Virustic2 is the deliberate successor to the educational
-[`virustic`](https://github.com/williamtbarker/virustic) prototype. It is currently a serious beta,
-not a clinical pipeline and not yet a substitute for a validated finishing workflow.
+[`virustic`](https://github.com/williamtbarker/virustic) prototype. It is beta research software, not a clinical pipeline or a substitute for a validated finishing workflow.
 
 ## What changed from Virustic
 
